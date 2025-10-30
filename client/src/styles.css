@@ -1,0 +1,21 @@
+:root { font-family: Arial, Helvetica, sans-serif }
+body { margin: 0; padding: 20px; background: #f5f7fb }
+.container { max-width: 760px; margin: 0 auto }
+h2 { text-align: center }
+.chat-wrapper { display: flex; gap: 16px }
+.left { flex: 1; background: white; padding: 16px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.06) }
+.name-form { display: flex; gap: 8px; margin-bottom: 8px }
+.name-form input { flex:1; padding: 8px }
+.name-form button { padding: 8px 12px }
+.status { margin-bottom: 8px; font-size: 14px }
+.messages { height: 360px; overflow-y: auto; border: 1px solid #eee; padding: 8px; background: #fff }
+.message { margin-bottom: 8px }
+.message .time { color: #666; font-size: 12px; margin-left: 6px }
+.send-form { display:flex; gap:8px; margin-top: 8px }
+.send-form input { flex:1; padding: 8px }
+.send-form button { padding: 8px 12px }
+
+
+@media (max-width:600px) {
+.messages { height: 240px }
+}
